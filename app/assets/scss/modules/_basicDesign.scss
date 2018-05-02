@@ -1,0 +1,39 @@
+body {
+  background: repeating-linear-gradient(222deg, #907f9f, #907f9f 40px, #a4a5ae 40px, #a4a5ae 80px);
+}
+
+main {
+  width: 106rem;
+  margin: 0 auto;
+}
+
+div.search-field {
+  height: 8rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div.content {
+  //float: right;
+  margin-right: 17.3rem;
+  //background-color: rgba(#000, .5);
+
+  a {
+    margin-right: 2rem;
+    padding: .25rem .5rem .5rem .5rem;
+
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  input {
+    height: 2.6rem;
+    width: 24.2rem;
+  }
+
+  .active {
+    background: rgba(#000000, .5);
+  }
+}

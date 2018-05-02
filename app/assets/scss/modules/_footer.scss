@@ -1,0 +1,112 @@
+footer.mainFooter {
+  height: 19.4rem;
+  background-color: black;
+  width: 100rem;
+  margin: 0 auto;
+  padding: 4rem;
+  position: relative;
+}
+
+div.footerLogo {
+  width: 18rem;
+  text-align: right;
+
+  &>a {
+    display: block;
+    padding-left: 1rem;
+    letter-spacing: .07rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  &>a:hover {
+    color: #a4a5ae;
+  }
+
+  &>p {
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: gray;
+  }
+}
+
+ul.footerNav {
+  position: absolute;
+  left: 26rem;
+  top: 4.3rem;
+
+
+  &>li {
+    float: left;
+    padding-right: 1rem;
+
+    &>a {
+      color: rgba(255, 255, 255, 0.699);
+      font-size: 1.4rem;  
+    }
+
+    &>a:hover {
+      color: #a4a5ae;
+    }
+  }
+}
+
+article.footerContainer {
+  position: absolute;
+  top: 8.4rem;
+  left: 26rem;
+
+  a, h3 , p {
+    color: gray;
+  }
+
+  p:last-of-type a {
+    color: #8d5a97;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}
+
+div.about {
+  width: 34rem;
+  float: left;
+  padding-right: 3rem;
+
+  &>h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  &>p {
+    font-size: 1.2rem
+  }
+}
+
+div.subscribe {
+  float: left;
+
+  &>ul>li {
+    float: left;
+    padding-right: 1.5rem;
+
+    &>a {
+      font-size: 1.2rem;
+
+      &>img {
+        margin-bottom: -.4rem;
+        padding-right: .5rem;
+      }
+    }
+  }
+
+  &>h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  
+}

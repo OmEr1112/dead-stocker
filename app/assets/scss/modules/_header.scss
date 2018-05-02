@@ -1,0 +1,53 @@
+.mainHeader {
+  width: 100rem;
+  height: 4.5rem;
+  background-color: #253529;
+  margin: 0 auto;
+
+
+  .homeIcon {
+    float: left;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+    padding-right: 7.2rem;
+    color: rgba(white, .8);
+    text-transform: uppercase;
+  }
+
+  li {
+    float: left;
+    padding-right: 2rem;
+    padding-top: 1.2rem;
+    
+  }
+
+  a {
+    color: rgba(white, .8);
+    text-transform: uppercase;
+    transition: all 300ms;
+  }
+
+  a:hover {
+    color: #a4a5ae;
+  }
+
+
+}
+
+.socialIcons {
+  float: right;
+
+  img {
+      padding-top: 1.5rem;
+      padding-right: .5rem;
+      cursor: pointer;
+  }
+  
+  a {
+    position: relative;
+    bottom: .25rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+  }
+}
